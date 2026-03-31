@@ -16,4 +16,9 @@ CLIENT_ID   = os.getenv("CLIENT_ID")
 PASSWORD    = os.getenv("PASSWORD")
 TOTP_SECRET = os.getenv("TOTP_SECRET")
 
-#Settings 
+#Settings  
+
+DAYS=365*10 #10 years data 
+OUTPUT_FILE="50_companies_data.xlsx"
+DELAY=0.5
+CHUNK_DATA=365
